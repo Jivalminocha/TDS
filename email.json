@@ -1,6 +1,5 @@
-echo '{"email": "24f2006969@ds.study.iitm.ac.in"}' > email.json
 git add email.json
-git commit -m "Add email.json with IITM study email"
+git commit -m "24f2006969@ds.study.iitm.ac.in"
 git push
 git log --oneline -n 1
 git show HEAD:email.json
